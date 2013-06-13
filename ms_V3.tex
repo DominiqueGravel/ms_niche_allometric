@@ -45,15 +45,23 @@
 \doublespacing
 
 \section*{Abstract}
+
 Current global changes make it important to be able to predict which
 interactions will occur in emerging ecosystems. Most of the current methods to
-infer the existence of interactions between two species require a good
-knowledge of their behaviour or a direct observation of interactions. In this paper, we
-overcome these limitations by developing a method, inspired from the niche
-model of food web structure, using the statistical relationship between predator and prey body size to infer the matrix of potential interactions among a pool of species. 
-The novelty of our approach is to infer, for any species of a given species pool, the three species specific parameters of the niche model. It allows one to evaluate the feeding interactions of a new species entering the community. We find that this method gives robust predictions of the structure of
+infer the existence of interactions between two species require a good knowledge
+of their behaviour or a direct observation of interactions. In this paper, we
+overcome these limitations by developing a method, inspired from the niche model
+of food web structure, using the statistical relationship between predator and
+prey body size to infer the matrix of potential interactions among a pool of
+species.  The novelty of our approach is to infer, for any species of a given
+species pool, the three species specific parameters of the niche model. It
+allows one to evaluate the feeding interactions of a new species entering the
+community. We find that this method gives robust predictions of the structure of
 food webs, and that its efficiency is increased when the strength of the body-
-size relationship between predators and preys increases. We finally illustrate the potential of the method to infer the metaweb structure of pelagic fishes of the Meditarrannean sea under different global change scenarios.
+size relationship between predators and preys increases. We finally illustrate
+the potential of the method to infer the metaweb structure of pelagic fishes of
+the Meditarrannean sea under different global change scenarios.
+
 \newpage
 
 %------------------------------------------------------------
@@ -82,9 +90,39 @@ We also provide an example of R code (R Core Development Team) and data in the S
 
 %------------------------------------------------------------
 \subsection{Inferring parameters from the niche model and building the metaweb}
-The niche model predicts the food web structure from a set of three species-specific parameters: the niche position $n_i$, the feeding niche optimum $c_i$ (called the centroid), and the feeding range $r_i$. A species $i$ will predate all species $j$ whose niche position $n_j$ lies within the interval $[c_i-r_i/2,c_i+r_i/2]$ (Fig. 1). We evaluate all of these parameters from the predator-prey body size relationship, enabling us to parameterize the metaweb from \emph{observed} interactions only. The parameterization is robust to the sampling effort, as it is much easier to document interactions than their absence \parencite{Martinez1999}. Our approach is however mostly limited to predatory interactions since the body size relationship between herbivores and primary producers is not as general \parencite{Riede2010}, and obviously do not hold for parasitic, mutualistic, or competitive networks. 
 
-Assuming that body size is the main niche axis structuring trophic interactions, the parameter $n_i$ corresponds simply to the log of body size (in mass or length) of species $i$. Though only the relative position of all species along the body size gradient needs to be respected, it is possible to standardize log body size values between 0 (minimum size in the regional species pool) and 1 (maximal size). We then consider a linear relationship between the decimal logarithm of body size and the centroid of the niche (the dark line at Fig. 1). This relationship is obtained by fitting the linear model $c = \mathrm{log}_{10}(B_{prey})=\alpha_0 + \alpha_1\times\mathrm{log}_{10}(B_{pred})$ to the data, where $B_{prey}$ and $B_{pred}$ are the prey and predator body size respectively. The lower and upper boundaries of the feeding range are easily obtained by fitting the 5\% and 95\% quantile regressions between $\mathrm{log}_{10}(B_{prey})$ and $\mathrm{log}_{10}(B_{pred})$ (the grey lines at Fig. 1, see the example at Fig. 2). We note them as $r_{low,i}$ and $r_{high,j}$ respectively, and the corresponding parameters $\beta_{0,low/high}$ and $\beta_{1,low/high}$.  In sum, the parameter $n_i$ for any species of the metaweb is given by the standardized value of the log body size $B_i$, $c_i$ is estimated from the linear regression between predator and prey log body size and $r_i$ from the quantile regressions. 
+The niche model predicts the food web structure from a set of three
+species-specific parameters \parencite{Williams2000}: the niche position $n_i$, the feeding niche optimum
+$c_i$ (called the centroid), and the feeding range $r_i$. A species $i$ will
+predate all species $j$ whose niche position $n_j$ lies within the interval
+$[c_i-r_i/2,c_i+r_i/2]$ (Fig. 1). We evaluate all of these parameters from the
+predator-prey body size relationship, enabling us to parameterize the metaweb
+from \emph{observed} interactions only. The parameterization is robust to the
+sampling effort, as it is much easier to document interactions than their
+absence \parencite{Martinez1999}. Our approach is however mostly limited to
+predatory interactions since the body size relationship between herbivores and
+primary producers is not as general \parencite{Riede2010}, and obviously do not
+hold for parasitic, mutualistic, or competitive networks. 
+
+Assuming that body size is the main niche axis structuring trophic interactions,
+the parameter $n_i$ corresponds simply to the log of body size (in mass or
+length) of species $i$. Though only the relative position of all species along
+the body size gradient needs to be respected, it is possible to standardize log
+body size values between 0 (minimum size in the regional species pool) and 1
+(maximal size). We then consider a linear relationship between the decimal
+logarithm of body size and the centroid of the niche (the dark line at Fig. 1).
+This relationship is obtained by fitting the linear model $c =
+\mathrm{log}_{10}(B_{prey})=\alpha_0 +
+\alpha_1\times\mathrm{log}_{10}(B_{pred})$ to the data, where $B_{prey}$ and
+$B_{pred}$ are the prey and predator body size respectively. The lower and upper
+boundaries of the feeding range are easily obtained by fitting the 5\% and 95\%
+quantile regressions between $\mathrm{log}_{10}(B_{prey})$ and
+$\mathrm{log}_{10}(B_{pred})$ (the dotted lines at Fig. 1, see the example at Fig.
+2). We note them as $r_{low,i}$ and $r_{high,j}$ respectively, and the
+corresponding parameters $\beta_{0,low/high}$ and $\beta_{1,low/high}$.  In sum,
+the parameter $n_i$ for any species of the metaweb is given by the standardized
+value of the log body size $B_i$, $c_i$ is estimated from the linear regression
+between predator and prey log body size and $r_i$ from the quantile regressions. 
 
 The next step of the methodology is to reconstruct the metaweb. Once these parameters are calculated from a subsample of species from the regional pool, the coefficients of the different linear models are used to infer the niche parameters of each species of the species pool. Again, the niche parameter for any species $i$, $n_i$, is given by the log of body size. The centroid of the niche is obtained by the relationship $c_i = \alpha_0 + \alpha_1\times\mathrm{n_i}$, the lower boundary of the niche is $r_{low,i} = \beta_{0,low} + \alpha_{1,low}\times\mathrm{n_i}$ and the upper boundary $r_{high,i} = \beta_{0,high} + \alpha_{1,high}\times\mathrm{n_i}$. A feeding link from species $j$ to species $i$ occurs if $n_j > r_{low,i} \& n_j < r_{high,i}$. We provide an example at Fig. 2.
 
