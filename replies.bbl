@@ -1,0 +1,674 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 1.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{Berlow2009}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Berlow}{B.}%
+     {Eric~L}{E.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dunne}{D.}%
+     {Jennifer~a}{J.~a.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Martinez}{M.}%
+     {Neo~D}{N.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stark}{S.}%
+     {Philip~B}{P.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Williams}{W.}%
+     {Richard~J}{R.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brose}{B.}%
+     {Ulrich}{U.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Animals,Biomass,Body Size,Ecology,Extinction, Biological,Feeding
+  Behavior,Food Chain,Models, Theoretical,Population Dynamics}
+  \strng{namehash}{BEL+1}
+  \strng{fullhash}{BELDJaMNDSPBWRJBU1}
+  \field{labelyear}{2009}
+  \field{sortinit}{B}
+  \field{abstract}{%
+  Darwin's classic image of an "entangled bank" of interdependencies among
+  species has long suggested that it is difficult to predict how the loss of
+  one species affects the abundance of others. We show that for dynamical
+  models of realistically structured ecological networks in which pair-wise
+  consumer-resource interactions allometrically scale to the (3/4) power--as
+  suggested by metabolic theory--the effect of losing one species on another
+  can be predicted well by simple functions of variables easily observed in
+  nature. By systematically removing individual species from 600 networks
+  ranging from 10-30 species, we analyzed how the strength of 254,032 possible
+  pair-wise species interactions depended on 90 stochastically varied species,
+  link, and network attributes. We found that the interaction strength between
+  a pair of species is predicted well by simple functions of the two species'
+  biomasses and the body mass of the species removed. On average, prediction
+  accuracy increases with network size, suggesting that greater web complexity
+  simplifies predicting interaction strengths. Applied to field data, our model
+  successfully predicts interactions dominated by trophic effects and
+  illuminates the sign and magnitude of important nontrophic interactions.%
+  }
+  \verb{doi}
+  \verb 10.1073/pnas.0806823106
+  \endverb
+  \field{issn}{1091-6490}
+  \field{number}{1}
+  \field{pages}{187\bibrangedash 91}
+  \field{title}{{Simple prediction of interaction strengths in complex food
+  webs.}}
+  \verb{url}
+  \verb http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2629248\&tool
+  \verb =pmcentrez\&rendertype=abstract
+  \endverb
+  \field{volume}{106}
+  \verb{file}
+  \verb :Users/DGravel/Library/Application Support/Mendeley Desktop/Downloaded/
+  \verb Berlow et al. - 2009 - Simple prediction of interaction strengths in co
+  \verb mplex food webs.(2).pdf:pdf
+  \endverb
+  \field{journaltitle}{Proceedings of the National Academy of Sciences of the
+  United States of America}
+  \field{month}{01}
+  \field{year}{2009}
+\endentry
+
+\entry{Brose2006}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Brose}{B.}%
+     {Ulrich}{U.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Williams}{W.}%
+     {Richard~J}{R.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Martinez}{M.}%
+     {Neo~D}{N.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Animals,Body Temperature Regulation,Body Weight,Computer
+  Simulation,Food Chain,Invertebrates,Invertebrates: physiology,Models,
+  Biological,Population Dynamics,Predatory Behavior,Predatory Behavior:
+  physiology,Vertebrates,Vertebrates: physiology}
+  \strng{namehash}{BU+1}
+  \strng{fullhash}{BUWRJMND1}
+  \field{labelyear}{2006}
+  \field{sortinit}{B}
+  \field{abstract}{%
+  Classic local stability theory predicts that complex ecological networks are
+  unstable and are unlikely to persist despite empiricists' abundant
+  documentation of such complexity in nature. This contradiction has puzzled
+  biologists for decades. While some have explored how stability may be
+  achieved in small modules of a few interacting species, rigorous
+  demonstrations of how large complex and ecologically realistic networks
+  dynamically persist remain scarce and inadequately understood. Here, we help
+  fill this void by combining structural models of complex food webs with
+  nonlinear bioenergetic models of population dynamics parameterized by
+  biological rates that are allometrically scaled to populations' average body
+  masses. Increasing predator-prey body mass ratios increase population
+  persistence up to a saturation level that is reached by invertebrate and
+  ectotherm vertebrate predators when being 10 or 100 times larger than their
+  prey respectively. These values are corroborated by empirical predator-prey
+  body mass ratios from a global data base. Moreover, negative effects of
+  diversity (i.e. species richness) on stability (i.e. population persistence)
+  become neutral or positive relationships at these empirical ratios. These
+  results demonstrate that the predator-prey body mass ratios found in nature
+  may be key to enabling persistence of populations in complex food webs and
+  stabilizing the diversity of natural ecosystems.%
+  }
+  \verb{doi}
+  \verb 10.1111/j.1461-0248.2006.00978.x
+  \endverb
+  \field{issn}{1461-0248}
+  \field{number}{11}
+  \field{pages}{1228\bibrangedash 36}
+  \field{title}{{Allometric scaling enhances stability in complex food webs.}}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/17040325
+  \endverb
+  \field{volume}{9}
+  \verb{file}
+  \verb :Users/DGravel/Library/Application Support/Mendeley Desktop/Downloaded/
+  \verb Brose, Williams, Martinez - 2006 - Allometric scaling enhances stabilit
+  \verb y in complex food webs..pdf:pdf
+  \endverb
+  \field{journaltitle}{Ecology letters}
+  \field{month}{11}
+  \field{year}{2006}
+\endentry
+
+\entry{Digel2011}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Digel}{D.}%
+     {Christoph}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Riede}{R.}%
+     {Jens~O.}{J.~O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brose}{B.}%
+     {Ulrich}{U.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DC+1}
+  \strng{fullhash}{DCRJOBU1}
+  \field{labelyear}{2011}
+  \field{sortinit}{D}
+  \verb{doi}
+  \verb 10.1111/j.1600-0706.2010.18862.x
+  \endverb
+  \field{issn}{00301299}
+  \field{number}{4}
+  \field{pages}{503\bibrangedash 509}
+  \field{title}{{Body sizes, cumulative and allometric degree distributions
+  across natural food webs}}
+  \verb{url}
+  \verb http://doi.wiley.com/10.1111/j.1600-0706.2010.18862.x
+  \endverb
+  \field{volume}{120}
+  \field{journaltitle}{Oikos}
+  \field{month}{04}
+  \field{year}{2011}
+\endentry
+
+\entry{Eklof2013}{article}{}
+  \name{author}{18}{}{%
+    {{}%
+     {Eklof}{E.}%
+     {Anna}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jacob}{J.}%
+     {Ute}{U.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kopp}{K.}%
+     {Jason}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bosch}{B.}%
+     {Jordi}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Castro-Urgal}{C.-U.}%
+     {Rocío}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chacoff}{C.}%
+     {Natacha~P.}{N.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dalsgaard}{D.}%
+     {Bo}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sassi}{S.}%
+     {Claudio}{C.}%
+     {de}{d.}%
+     {}{}}%
+    {{}%
+     {Galetti}{G.}%
+     {Mauro}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Guimarães}{G.}%
+     {Paulo~R.}{P.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lomáscolo}{L.}%
+     {Silvia~Beatriz}{S.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Martín~González}{M.~G.}%
+     {Ana~M.}{A.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pizo}{P.}%
+     {Marco~Aurelio}{M.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rader}{R.}%
+     {Romina}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rodrigo}{R.}%
+     {Anselm}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tylianakis}{T.}%
+     {Jason~M.}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vázquez}{V.}%
+     {Diego~P.}{D.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Allesina}{A.}%
+     {Stefano}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Ecological networks, food web structure, intervality, niche space,
+  species traits, scaling}
+  \strng{namehash}{EA+1}
+  \strng{fullhash}{EAJUKJBJCURCNPDBSCdGMGPRLSBMGAMPMARRRATJMVDPAS1}
+  \field{labelyear}{2013}
+  \field{sortinit}{E}
+  \verb{doi}
+  \verb 10.1111/ele.12081
+  \endverb
+  \field{issn}{1461-0248}
+  \field{number}{5}
+  \field{pages}{577\bibrangedash 583}
+  \field{title}{The dimensionality of ecological networks}
+  \verb{url}
+  \verb http://dx.doi.org/10.1111/ele.12081
+  \endverb
+  \field{volume}{16}
+  \field{journaltitle}{Ecology Letters}
+  \field{year}{2013}
+\endentry
+
+\entry{Gravel2011b}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Gravel}{G.}%
+     {Dominique}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Canard}{C.}%
+     {Elsa}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Guichard}{G.}%
+     {Fr\'{e}d\'{e}ric}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mouquet}{M.}%
+     {Nicolas}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Biological,Biota,Computer Simulation,Food Chain,Models}
+  \strng{namehash}{GD+1}
+  \strng{fullhash}{GDCEGFMN1}
+  \field{labelyear}{2011}
+  \field{sortinit}{G}
+  \field{abstract}{%
+  We are interested in understanding if metacommunity dynamics contribute to
+  the persistence of complex spatial food webs subject to
+  colonization-extinction dynamics. We study persistence as a measure of
+  stability of communities within discrete patches, and ask how do species
+  diversity, connectance, and topology influence it in spatially structured
+  food webs.%
+  }
+  \verb{doi}
+  \verb 10.1371/journal.pone.0019374
+  \endverb
+  \field{issn}{1932-6203}
+  \field{number}{5}
+  \field{pages}{e19374}
+  \field{title}{{Persistence increases with diversity and connectance in
+  trophic metacommunities.}}
+  \verb{url}
+  \verb http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3103501\&tool
+  \verb =pmcentrez\&rendertype=abstract
+  \endverb
+  \field{volume}{6}
+  \verb{file}
+  \verb :Users/DGravel/Documents/Reprints/Gravel2011\_PLOS\_One.pdf:pdf
+  \endverb
+  \field{journaltitle}{PloS one}
+  \field{month}{01}
+  \field{year}{2011}
+\endentry
+
+\entry{Mouquet2012}{article}{}
+  \name{author}{22}{}{%
+    {{}%
+     {Mouquet}{M.}%
+     {Nicolas}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Devictor}{D.}%
+     {Vincent}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Meynard}{M.}%
+     {Christine~N}{C.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Munoz}{M.}%
+     {Francois}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bersier}{B.}%
+     {Louis-F\'{e}lix}{L.-F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chave}{C.}%
+     {J\'{e}r\^{o}me}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Couteron}{C.}%
+     {Pierre}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dalecky}{D.}%
+     {Ambroise}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fontaine}{F.}%
+     {Colin}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gravel}{G.}%
+     {Dominique}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hardy}{H.}%
+     {Olivier~J}{O.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jabot}{J.}%
+     {Franck}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lavergne}{L.}%
+     {S\'{e}bastien}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Leibold}{L.}%
+     {Mathew}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mouillot}{M.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {M\"{u}nkem\"{u}ller}{M.}%
+     {Tamara}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pavoine}{P.}%
+     {Sandrine}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Prinzing}{P.}%
+     {Andreas}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rodrigues}{R.}%
+     {Ana S~L}{A.~S.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rohr}{R.}%
+     {Rudolf~P}{R.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Th\'{e}bault}{T.}%
+     {Elisa}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thuiller}{T.}%
+     {Wilfried}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MN+1}
+  \strng{fullhash}{MNDVMCNMFBLFCJCPDAFCGDHOJJFLSLMMDMTPSPARASLRRPTETW1}
+  \field{labelyear}{2012}
+  \field{sortinit}{M}
+  \field{abstract}{%
+  Ecophylogenetics can be viewed as an emerging fusion of ecology, biogeography
+  and macroevolution. This new and fast-growing field is promoting the
+  incorporation of evolution and historical contingencies into the ecological
+  research agenda through the widespread use of phylogenetic data. Including
+  phylogeny into ecological thinking represents an opportunity for biologists
+  from different fields to collaborate and has provided promising avenues of
+  research in both theoretical and empirical ecology, towards a better
+  understanding of the assembly of communities, the functioning of ecosystems
+  and their responses to environmental changes. The time is ripe to assess
+  critically the extent to which the integration of phylogeny into these
+  different fields of ecology has delivered on its promise. Here we review how
+  phylogenetic information has been used to identify better the key components
+  of species interactions with their biotic and abiotic environments, to
+  determine the relationships between diversity and ecosystem functioning and
+  ultimately to establish good management practices to protect overall
+  biodiversity in the face of global change. We evaluate the relevance of
+  information provided by phylogenies to ecologists, highlighting current
+  potential weaknesses and needs for future developments. We suggest that
+  despite the strong progress that has been made, a consistent unified
+  framework is still missing to link local ecological dynamics to
+  macroevolution. This is a necessary step in order to interpret observed
+  phylogenetic patterns in a wider ecological context. Beyond the fundamental
+  question of how evolutionary history contributes to shape communities,
+  ecophylogenetics will help ecology to become a better integrative and
+  predictive science.%
+  }
+  \verb{doi}
+  \verb 10.1111/j.1469-185X.2012.00224.x
+  \endverb
+  \field{issn}{1469-185X}
+  \field{pages}{769\bibrangedash 785}
+  \field{title}{{Ecophylogenetics: advances and perspectives.}}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/22432924
+  \endverb
+  \field{volume}{87}
+  \verb{file}
+  \verb :Users/DGravel/Library/Application Support/Mendeley Desktop/Downloaded/
+  \verb Mouquet et al. - 2012 - Ecophylogenetics advances and perspectives.pdf:
+  \verb pdf
+  \endverb
+  \field{journaltitle}{Biological Reviews}
+  \field{month}{03}
+  \field{year}{2012}
+\endentry
+
+\entry{Rall2011}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Rall}{R.}%
+     {Bj\"{o}rn~Christian}{B.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kalinkat}{K.}%
+     {Gregor}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ott}{O.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vucic-Pestic}{V.-P.}%
+     {Olivera}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brose}{B.}%
+     {Ulrich}{U.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RBC+1}
+  \strng{fullhash}{RBCKGODVPOBU1}
+  \field{labelyear}{2011}
+  \field{sortinit}{R}
+  \verb{doi}
+  \verb 10.1111/j.1600-0706.2010.18860.x
+  \endverb
+  \field{issn}{00301299}
+  \field{number}{4}
+  \field{pages}{483\bibrangedash 492}
+  \field{title}{{Taxonomic versus allometric constraints on non-linear
+  interaction strengths}}
+  \verb{url}
+  \verb http://doi.wiley.com/10.1111/j.1600-0706.2010.18860.x
+  \endverb
+  \field{volume}{120}
+  \field{journaltitle}{Oikos}
+  \field{month}{04}
+  \field{year}{2011}
+\endentry
+
+\entry{Rohr2010}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Rohr}{R.}%
+     {Rudolf~Philippe}{R.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Scherer}{S.}%
+     {Heike}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kehrli}{K.}%
+     {Patrik}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mazza}{M.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bersier}{B.}%
+     {Louis-Felix}{L.-F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RRP+1}
+  \strng{fullhash}{RRPSHKPMCBLF1}
+  \field{labelyear}{2010}
+  \field{sortinit}{R}
+  \verb{doi}
+  \verb 10.1086/653667
+  \endverb
+  \field{issn}{0003-0147}
+  \field{number}{2}
+  \field{pages}{170\bibrangedash 177}
+  \field{title}{{Modeling Food Webs: Exploring Unexplained Structure Using
+  Latent Traits}}
+  \field{volume}{176}
+  \field{journaltitle}{American Naturalist}
+  \field{month}{04}
+  \field{year}{2010}
+\endentry
+
+\entry{Williams2000}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Williams}{W.}%
+     {Richard~J}{R.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Martinez}{M.}%
+     {N\'{e}o~D}{N.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{WRJMND1}
+  \strng{fullhash}{WRJMND1}
+  \field{labelyear}{2000}
+  \field{sortinit}{W}
+  \field{number}{6774}
+  \field{pages}{180\bibrangedash 183}
+  \field{title}{{Simple rules yield complex food webs}}
+  \field{volume}{404}
+  \verb{file}
+  \verb :home/tpoisot/Documents/Papers/Nature/Williams, Martinez - 2000 - Simpl
+  \verb e rules yield complex food webs.pdf:pdf
+  \endverb
+  \field{journaltitle}{Nature}
+  \field{year}{2000}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

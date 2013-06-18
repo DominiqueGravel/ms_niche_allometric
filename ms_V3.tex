@@ -3,8 +3,8 @@
 \usepackage{color,lineno,setspace,graphicx,multirow,kpfonts}
 \usepackage[top=2.4cm,left=2.4cm,top=2.4cm,bottom=2.4cm,includefoot]{geometry}
 \usepackage[style=bes]{biblatex}
-\bibliography{./library, EKLOF,CHEUNG,THUILLER,CANARD, POISOT, WILLIAMS, HAVENS, BAISER, PEREIRA, WHITEHEAD, STOUFFER, STOU2, ALLESINA, ALLOUCHE, ALBOUY, FROESE, JACKSON,STANKO}
-%\bibliograph{library}
+\bibliography{./library}
+
 
 \begin{document}
 
@@ -49,7 +49,7 @@
 Current global changes make it important to be able to predict which
 interactions will occur in emerging ecosystems. Most of the current methods to
 infer the existence of interactions between two species require a good knowledge
-of their behaviour or a direct observation of interactions. In this paper, we
+of their behavior or a direct observation of interactions. In this paper, we
 overcome these limitations by developing a method, inspired from the niche model
 of food web structure, using the statistical relationship between predator and
 prey body size to infer the matrix of potential interactions among a pool of
@@ -60,7 +60,7 @@ feeding interactions of a new species entering the community. We find that this
 method gives robust predictions of the structure of food webs, and that its
 efficiency is increased when the strength of the body- size relationship between
 predators and preys increases. We finally illustrate the potential of the method
-to infer the metaweb structure of pelagic fishes of the Meditarrannean sea under
+to infer the metaweb structure of pelagic fishes of the Mediterranean sea under
 different global change scenarios.
 
 \newpage
@@ -77,7 +77,7 @@ is now well described \parencite{Pereira2010}, but forecasting their impact on
 community structure and functioning requires \emph{a priori} knowledge of
 potential interactions among species. Predicting interactions among species that
 never co-occurred proves challenging, as traditional empirical methods of food
-web sampling such as stomacal content analysis cannot be applied. While for
+web sampling such as stomach content analysis cannot be applied. While for
 competitive communities this task could be achieved using predictive modeling
 based on functional traits \parencite{McGill2006, Albouy2010} or phylogeny
 \parencite{Cavender-Bares2009, Mouquet2012} , it is much more difficult to
@@ -106,7 +106,7 @@ enough number of times.
 
 Development of predictive models of trophic interactions could greatly improve
 our understanding of large scale food web structure and our capacity to
-anticipate major changes in ecosystem functionning. Theory should provide some
+anticipate major changes in ecosystem functioning. Theory should provide some
 guidance about the general rules underpinning interactions among a set of
 species and thus help us to infer the metaweb. The actual food web theory is
 largely derived from the niche model \parencite{Williams2000}. This model simply
@@ -151,7 +151,7 @@ predicts the interactions (and lack thereof), and that the accuracy increases
 with the strength of the predator-prey body size relationship. We then analyze
 the sensitivity of the method to incomplete data (missing links) and find that
 it is robust to sampling effort. We finally illustrate the potential of the
-method to infer the metaweb structure of pelagic fishes of the Meditarrannean
+method to infer the metaweb structure of pelagic fishes of the Mediterranean
 sea and the consequences of alteration of body size distribution by global
 changes or anthropic forcings. The method is best suited for strongly
 size-structured food webs and will likely not hold for other types of
@@ -167,10 +167,10 @@ following steps, with details provided below:
 \begin{description}
 \item[Step 1:] Log transformation of the body size data;
 \item[Step 2:] Statistical analysis of the predator-prey body size relationship;
-\item[Step 3:] Inferrence of the niche model parameters for all species from the species pool;
+\item[Step 3:] Inference of the niche model parameters for all species from the species pool;
 \item[Step 4:] Interpretation of the parameters and computation of the metaweb.
 \end{description}
-We also provide an example of R code (R Core Development Team) and data in the Supplementary Material, detailling the step by step procedure and the format of the input data. 
+We also provide an example of R code (R Core Development Team) and data in the Supplementary Material, detailing the step by step procedure and the format of the input data. 
 
 %------------------------------------------------------------
 \subsection{Inferring parameters from the niche model and building the metaweb}
@@ -204,7 +204,7 @@ boundaries of the feeding range are easily obtained by fitting the 5\% and 95\%
 quantile regressions between $\mathrm{log}_{10}(M_{prey})$ and
 $\mathrm{log}_{10}(M_{pred})$ (the dotted lines at Fig. 1, see the example at
 Fig. 2). We note them as $r_{low,i}$ and $r_{high,j}$ respectively, and the
-corresponding parameters of the linear quantile regresions are
+corresponding parameters of the linear quantile regressions are
 $\beta_{0,low/high}$ and $\beta_{1,low/high}$. In sum, the parameter $n_i$ for
 any species of the metaweb is given by the standardized value of the log body
 size $M_i$, $c_i$ is estimated from the linear regression between predator and
@@ -306,9 +306,9 @@ respect to body size (e.g. sampling of the largest species) might be more likely
 to reduce the fit of the predator-prey body size relationship. The aggregation
 intro trophic species that do have the same body size and the same diet should
 not impact the prediction since it will not affect parameter evaluation. It will
-however reduce the fit of the predator-prey body size relationship and therfore
+however reduce the fit of the predator-prey body size relationship and therefore
 the accuracy of the method if the species do have different body sizes. The same
-artifact will be observed if there is strong intraspecific variation in body
+artifact will be observed if there is strong intra-specific variation in body
 size (see the Discussion).
 
 %------------------------------------------------------------
@@ -325,10 +325,10 @@ parameterized the niche model with a subset of species, from two different
 highly resolved food webs from the Catalan area \parencite{Coll2006} (82
 species) and Corsica \parencite{Albouy2010} (58 species).
 
-\subsection{Inferring the metaweb for Mediterrannean fishes}
+\subsection{Inferring the metaweb for Mediterranean fishes}
 We estimated parameters $n$, $c$ and $r$ for each of the 557 species and
 inferred the potential interactions among all of them (the example in the
-Supplementariy code is based on this dataset). The metaweb has a total of 126
+Supplementary code is based on this dataset). The metaweb has a total of 126
 501 links, for a connectance of 0.41 (Fig. 5A). The metaweb is also highly
 nested (specialist species feed on a subset of prey of the most generalist
 species. Fig. 5A). We also considered a second niche axis related to species
@@ -346,9 +346,9 @@ species, yet bathymetry is considered as one of the main factors accounting for
 marine fish distributions \parencite{Louisy2005}. We therefore refined the
 extent of occurrence maps by clipping off areas with depths that fall outside
 the minimum or maximum known for the species. Species' bathymetric ranges were
-obtained from FishBase \parencite{Froese2010, Louisy2005}. The resulting metaweb
+obtained from FishBase \parencite{Froese2011, Louisy2005}. The resulting metaweb
 has a total of 95 989 links, for a connectance of $C = 0.31$. Connectance
-decreases because links are removed by incomptabilities in bathymetry but the
+decreases because links are removed by incompatibilities in bathymetry but the
 total number of species stays constant. This metaweb is clearly less interval
 (Fig. 5B). Contiguous gaps in the diet are likely to emerge from modularity in
 the co-occurrence matrix \parencite{Araujo2011}. Future studies should explore
@@ -360,7 +360,7 @@ Our method to parameterize the niche model has a unique feature relative to the
 original niche model \parencite{Williams2000}: the network properties of the
 original model, such as the number of links, food chain length and degree
 distribution (the number of in and out feeding links per species), are
-controlled by the input parameters (species richness and connectance), wherea
+controlled by the input parameters (species richness and connectance), where
 all properties of our parameterized niche model are emergent features of the
 predator-prey body size relationship and the frequency distribution of body
 size. The connectance in the niche model is fixed by the user; in our case it
@@ -445,7 +445,7 @@ important.
 
 The method should be completed with other sources of informations to better
 predict gaps in the interaction matrix. The original niche model was definitely
-inspired by the predator-prey body size relationship, but was intented to be
+inspired by the predator-prey body size relationship, but was intended to be
 more general and eventually deal with several niche axes
 \parencite{Williams2000}. \textcite{Allesina2008} indeed found that adding a
 second axis, creating gaps into the first axis interaction matrix, increases the
@@ -455,9 +455,9 @@ of the niche model that was reported by \textcite{Cattin2004} and
 \textcite{Bersier2006}. There are numerous sources of information that could be
 used to improve the model, such as co-occurrence and functional traits.
 
-Our application with the Mediterannean pelagic fish food web provides an example
+Our application with the Mediterranean pelagic fish food web provides an example
 of how straightforward it is to add additional information so as to improve the
-parameterization. A similar approach could also build on the comptability of
+parameterization. A similar approach could also build on the compatibility of
 other traits such as phenology, location in the water column or hunting modes.
 While the approach we describe here is based on very simple statistics, the next
 methodological efforts will also have to take into account more various and
@@ -493,7 +493,7 @@ closer to ecosystem functioning.
 We thank I. Gounand for preparing the food web data. We also thank N. Martinez,
 U. Brose and two anonymous reviewers for their constructive comments and
 stimulating discussion. DG received financial support from NSERC and Canada
-Research Chair program. TP is funded by a MELS-FQRNT post-doctoral fellowship.
+Research Chair program. TP and CA are funded by a MELS-FQRNT post-doctoral fellowship.
 \newpage
 
 \printbibliography
@@ -531,7 +531,7 @@ Data from a creek bed located in Australia \parencite{Brose2005}.
 \subsection*{Figure 3} 
 Performance of the parameterized niche model to predict
 food web structure for the 11 food webs. A) Relationship between the TSS and the
-$R^2$ of the predator-prey body size relationship. B) Partitionning of the
+$R^2$ of the predator-prey body size relationship. B) Partitioning of the
 different components of the TSS.
 
 \subsection*{Figure 4} 
@@ -540,14 +540,14 @@ parameterized niche model to predict food web structure. The simulation was
 conducted with the same data as Fig. 2.
 
 \subsection*{Figure 5} 
-Illustration of the metaweb of the Mediterannean pelagic
+Illustration of the metaweb of the Mediterranean pelagic
 fishes (interactions in black). Panel A) represents the full metaweb and B) the
-same metaweb for which links between species not co-occuring together were
-removed (their range overlap for less than $0.1\%$ of the Mediterannean sea).
+same metaweb for which links between species not co-occurring together were
+removed (their range overlap for less than $0.1\%$ of the Mediterranean sea).
 
 \subsection*{Figure 6} 
 Impacts of altering the body size distribution of
-Meditarrennean fishes on the degree distribution of the metaweb. The black line
+Mediterranean fishes on the degree distribution of the metaweb. The black line
 corresponds to the original metaweb degree distribution. For the first scenario,
 we simulated a $40\%$ reduction in average body size and recalculated the
 metaweb properties, keeping the predator-prey body size relationship constant
