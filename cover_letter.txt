@@ -1,0 +1,7 @@
+June 17th, 2013Rimouski, QC, CanadaProf. Robert Freckleton
+Executive Editor, Methods in Ecology and Evolution
+coordinator@methodsinecologyandevolution.orgSubject: revised manuscript MEE-12-09-372Dear Prof. Freckleton,,Please find enclosed a revised manuscript entitled "Inferring food web structure from predator-prey body size relationships" by D. Gravel, T. Poisot, C. Albouy, L. Velez & D. Mouillot. 
+We have carefully considered all of the reviewers’ comments and believe that the changes made have greatly improved our manuscript. The following points summarize the major corrections we performed:- We added a paragraph to the discussion on the interpretation of the regression coefficients and a comparison to the original niche model;
+- We added a paragraph to the discussion on the extension of our method to other sources of data, including phylogenies 
+
+We believe the last point is a significant improvement that will facilitate the application of the method and makes clear the different steps of the analysis.Along with this letter, we provide a point-by-point list of replies to all of the reviewer’s comments.We look forward to hearing from you regarding the acceptability of our manuscript for publication in Methods in Ecology and EvolutionYours sincerely,Dominique Gravel, Ph.D.Université du Québec à Rimouskidominique_gravel@uqar.ca
