@@ -1,8 +1,7 @@
-This is BibTeX, Version 0.99d (TeX Live 2011)
+This is BibTeX, Version 0.99d (TeX Live 2012)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: ms_V3.aux
 The style file: biblatex.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -13,153 +12,51 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 12072 items from 5000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 11936 items from 5000.
 Database file #1: ms_V3-blx.bib
 Database file #2: ./library.bib
-Repeated entry---line 19296 of file ./library.bib
- : @article{Tylianakis2008
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 19402 of file ./library.bib
- : @article{Berlow2009
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 19587 of file ./library.bib
- : @article{Ings2009
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 19671 of file ./library.bib
- : @incollection{Dunne2006
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 19681 of file ./library.bib
- : @article{Brose2006
- :                   ,
-I'm skipping whatever remains of this entry
-Database file #3: EKLOF.bib
-Repeated entry---line 1 of file EKLOF.bib
- : @article {Eklof2013
- :                    ,
-I'm skipping whatever remains of this entry
-Database file #4: CHEUNG.bib
-Repeated entry---line 1 of file CHEUNG.bib
- : @article{Cheung2012
- :                    ,
-I'm skipping whatever remains of this entry
-Database file #5: THUILLER.bib
-Repeated entry---line 1 of file THUILLER.bib
- : @article{Thuiller2013
- :                      ,
-I'm skipping whatever remains of this entry
-Database file #6: CANARD.bib
-Database file #7: POISOT.bib
-Repeated entry---line 1 of file POISOT.bib
- : @article{Poisot2012a
- :                     ,
-I'm skipping whatever remains of this entry
-Database file #8: WILLIAMS.bib
-Repeated entry---line 1 of file WILLIAMS.bib
- : @article{Williams2000
- :                      ,
-I'm skipping whatever remains of this entry
-Database file #9: HAVENS.bib
-Repeated entry---line 1 of file HAVENS.bib
- : @article{Havens1992
- :                    ,
-I'm skipping whatever remains of this entry
-Database file #10: BAISER.bib
-Repeated entry---line 1 of file BAISER.bib
- : @article{Baiser2012
- :                    ,
-I'm skipping whatever remains of this entry
-Database file #11: PEREIRA.bib
-Repeated entry---line 1 of file PEREIRA.bib
- : @article{Pereira2010
- :                     ,
-I'm skipping whatever remains of this entry
-Database file #12: WHITEHEAD.bib
-Database file #13: STOUFFER.bib
-Repeated entry---line 1 of file STOUFFER.bib
- : @article{Stouffer2005
- :                      ,
-I'm skipping whatever remains of this entry
-Database file #14: STOU2.bib
-Repeated entry---line 1 of file STOU2.bib
- : @article{Stouffer2006
- :                      ,
-I'm skipping whatever remains of this entry
-Database file #15: ALLESINA.bib
-Repeated entry---line 1 of file ALLESINA.bib
- : @article{Allesina2008
- :                      ,
-I'm skipping whatever remains of this entry
-Database file #16: ALLOUCHE.bib
-Repeated entry---line 1 of file ALLOUCHE.bib
- : @article{Allouche2006
- :                      ,
-I'm skipping whatever remains of this entry
-Database file #17: ALBOUY.bib
-Repeated entry---line 1 of file ALBOUY.bib
- : @article{Albouy2012
- :                    ,
-I'm skipping whatever remains of this entry
-Database file #18: FROESE.bib
-Database file #19: JACKSON.bib
-Repeated entry---line 1 of file JACKSON.bib
- : @article{Jackson2001
- :                     ,
-I'm skipping whatever remains of this entry
-Database file #20: STANKO.bib
-Repeated entry---line 1 of file STANKO.bib
- : @article{Stanko2002
- :                    ,
-I'm skipping whatever remains of this entry
-"}" immediately follows an entry type---line 43 of file STANKO.bib
- : Author-Email = {{morand@univ-perp.fr
- :                                     }},
-I'm skipping whatever remains of this entry
-Biblatex version: 1.5
+Biblatex version: 1.7
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-You've used 52 entries,
-            5995 wiz_defined-function locations,
-            1662 strings with 62467 characters,
-and the built_in function-call counts, 205740 in all, are:
-= -- 6607
-> -- 7254
-< -- 1543
-+ -- 2598
-- -- 3324
-* -- 21605
-:= -- 13032
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+You've used 51 entries,
+            6019 wiz_defined-function locations,
+            1651 strings with 60169 characters,
+and the built_in function-call counts, 200974 in all, are:
+= -- 6758
+> -- 6717
+< -- 1446
++ -- 2432
+- -- 2998
+* -- 20772
+:= -- 12573
 add.period$ -- 0
-call.type$ -- 52
-change.case$ -- 677
-chr.to.int$ -- 256
-cite$ -- 102
-duplicate$ -- 24036
-empty$ -- 21180
-format.name$ -- 5802
-if$ -- 43795
+call.type$ -- 51
+change.case$ -- 724
+chr.to.int$ -- 245
+cite$ -- 100
+duplicate$ -- 23754
+empty$ -- 21039
+format.name$ -- 5547
+if$ -- 42686
 int.to.chr$ -- 0
-int.to.str$ -- 121
+int.to.str$ -- 123
 missing$ -- 0
-newline$ -- 2904
-num.names$ -- 2260
-pop$ -- 16698
+newline$ -- 2885
+num.names$ -- 2282
+pop$ -- 16424
 preamble$ -- 1
-purify$ -- 1009
+purify$ -- 1032
 quote$ -- 0
-skip$ -- 10388
+skip$ -- 9905
 stack$ -- 0
-substring$ -- 3269
-swap$ -- 9430
-text.length$ -- 1648
+substring$ -- 3597
+swap$ -- 9310
+text.length$ -- 1502
 text.prefix$ -- 71
 top$ -- 1
-type$ -- 1964
+type$ -- 1922
 warning$ -- 0
-while$ -- 1262
+while$ -- 1244
 width$ -- 0
-write$ -- 2851
-(There were 21 error messages)
+write$ -- 2833

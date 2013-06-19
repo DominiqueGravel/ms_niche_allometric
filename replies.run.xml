@@ -41,14 +41,14 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>ms_V3.aux</file>
-      <file>ms_V3-blx.bib</file>
+      <file>replies.aux</file>
+      <file>replies-blx.bib</file>
     </provides>
     <requires type="dynamic">
-      <file>ms_V3.bbl</file>
+      <file>replies.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-compat.def</file>
@@ -68,20 +68,20 @@
     <cmdline>
       <binary>bibtex</binary>
       <option>-min-crossrefs 2</option>
-      <infile>ms_V3</infile>
+      <infile>replies</infile>
     </cmdline>
     <input>
-      <file>ms_V3.aux</file>
+      <file>replies.aux</file>
     </input>
     <output>
-      <file>ms_V3.bbl</file>
+      <file>replies.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>ms_V3.bbl</file>
+      <file>replies.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>ms_V3.aux</file>
-      <file>ms_V3-blx.bib</file>
+      <file>replies.aux</file>
+      <file>replies-blx.bib</file>
     </requires>
     <requires type="editable">
       <file>./library.bib</file>
